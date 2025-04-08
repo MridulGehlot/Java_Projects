@@ -1,0 +1,1 @@
+java -classpath ..\..\netcommon\build\libs\netcommon.jar;..\..\common\dist\hr-common.jar;..\..\proxybl\build\libs\proxybl.jar;d:\itext\itextpdf-5.5.13.4.jar;..\..\netclient\build\libs\netclient.jar;..\..\dbdl\build\libs\dbdl.jar;..\build\libs\pl.jar;. DesignationModelTestCase

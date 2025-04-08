@@ -1,0 +1,13 @@
+apply plugin: 'java'
+dependencies
+{
+implementation files('../dl/dist/hr-dl-1.0.jar','../common/dist/hr-common.jar','../bl/build/libs/bl.jar');
+implementation fileTree(include : '*.jar' ,dir : 'build/libs')
+}
+// Ensure resources are included in the JAR
+jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE // or DuplicatesStrategy.WARN
+    from {
+        sourceSets.main.output
+    }
+}

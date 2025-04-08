@@ -1,0 +1,5 @@
+apply plugin: 'java'
+dependencies
+{
+implementation files('../netcommon/build/libs/netcommon.jar','d:/gson/gson-2.12.1.jar');
+}

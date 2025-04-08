@@ -1,0 +1,1 @@
+java -classpath ..\..\common\dist\hr-common.jar;..\..\netcommon\build\libs\netcommon.jar;c:\mysql-connector-j-9.2.0.jar;..\..\dbdl\build\libs\dbdl.jar;..\..\bl\build\libs\bl.jar;..\..\netserver\build\libs\netserver.jar;..\build\libs\hrserver.jar;. com.mg.hr.server.main.Main

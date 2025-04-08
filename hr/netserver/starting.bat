@@ -1,0 +1,1 @@
+java -classpath c:\mysql-connector-j-9.2.0.jar;..\dbdl\build\libs\dbdl.jar;..\common\dist\hr-common.jar;..\netcommon\build\libs\netcommon.jar;..\bl\build\libs\bl.jar;build\libs\netserver.jar;. com.mg.network.server.NetworkServer
