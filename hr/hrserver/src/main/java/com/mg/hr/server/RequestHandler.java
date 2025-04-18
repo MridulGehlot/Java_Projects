@@ -42,38 +42,37 @@ if(designationManager==null)
 {
 //will implement later on
 }
-DesignationManagerInterface manager=(DesignationManager.getDesignationManager());
-if(method.equals("addDesignation")) manager.addDesignation((DesignationInterface)arguments);
-else if(method.equals("updateDesignation")) manager.updateDesignation((DesignationInterface)arguments);
-else if(method.equals("removeDesignation")) manager.removeDesignation((int)arguments);
+if(method.equals("addDesignation")) designationManager.addDesignation((DesignationInterface)arguments);
+else if(method.equals("updateDesignation")) designationManager.updateDesignation((DesignationInterface)arguments);
+else if(method.equals("removeDesignation")) designationManager.removeDesignation((int)arguments);
 else if(method.equals("getDesignationByCode")) 
 {
-DesignationInterface d=manager.getDesignationByCode((int)arguments);
+DesignationInterface d=designationManager.getDesignationByCode((int)arguments);
 response.setResult(d);
 }
 else if(method.equals("getDesignationByTitle"))
 {
-DesignationInterface d=manager.getDesignationByTitle((String)arguments);
+DesignationInterface d=designationManager.getDesignationByTitle((String)arguments);
 response.setResult(d);
 }
 else if(method.equals("designationCodeExists"))
 {
-boolean result=manager.designationCodeExists((int)arguments);
+boolean result=designationManager.designationCodeExists((int)arguments);
 response.setResult(result);
 }
 else if(method.equals("designationTitleExists"))
 {
-boolean result=manager.designationTitleExists((String)arguments);
+boolean result=designationManager.designationTitleExists((String)arguments);
 response.setResult(result);
 }
 else if(method.equals("getDesignationCount"))
 {
-int count=manager.getDesignationCount();
+int count=designationManager.getDesignationCount();
 response.setResult(count);
 }
 else if(method.equals("getDesignations"))
 {
-Object resultSet=manager.getDesignations();
+Object resultSet=designationManager.getDesignations();
 response.setResult(resultSet);
 }
 else
