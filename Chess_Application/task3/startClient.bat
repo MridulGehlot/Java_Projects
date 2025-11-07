@@ -1,0 +1,1 @@
+java -classpath d:\JavaProjects\NFramework\common\build\libs\nframework-common.jar;d:\gson\gson-2.12.1.jar;d:\JavaProjects\NFramework\client\build\libs\nframework-client.jar;. client

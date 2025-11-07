@@ -1,0 +1,1 @@
+java -classpath ..\dl\dist\hr-dl-1.0.jar;..\bl\build\libs\bl.jar;c:\mysql-connector-j-9.2.0.jar;d:\itext\itextpdf-5.5.13.4.jar;build\libs\pl.jar;. com.mg.hr.pl.Main

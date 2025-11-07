@@ -1,0 +1,1 @@
+javac -classpath d:\JavaProjects\NFramework\server\build\libs\nframework-server.jar;d:\JavaProjects\NFramework\common\build\libs\nframework-common.jar;d:\JavaProjects\NFramework\client\build\libs\nframework-client.jar;d:\gson\gson-2.12.1.jar;c:\mysql-connector-j-9.2.0.jar;. *.java

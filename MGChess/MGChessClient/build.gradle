@@ -1,0 +1,5 @@
+apply plugin:"java"
+dependencies
+{
+implementation files('../../NFramework/client/build/libs/nframework-client.jar','../../NFramework/common/build/libs/nframework-common.jar');
+}

@@ -1,0 +1,1 @@
+java -classpath ..\..\NFramework\common\build\libs\nframework-common.jar;..\..\NFramework\server\build\libs\nframework-server.jar;d:\gson\gson-2.12.1.jar;build\libs\MGChessServer.jar;..\MGChessCommon\build\libs\MGChessCommon.jar;. com.mg.chess.server.Main

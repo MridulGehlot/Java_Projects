@@ -1,0 +1,1 @@
+java -classpath ..\..\NFramework\common\build\libs\nframework-common.jar;..\..\NFramework\client\build\libs\nframework-client.jar;d:\gson\gson-2.12.1.jar;build\libs\MGChessClient.jar;..\MGChessCommon\build\libs\MGChessCommon.jar;. com.mg.chess.client.Main %1 %2
